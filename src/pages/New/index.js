@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import api from '../../services/api';
-
+// import Dropzone from 'react-dropzone';
 import camera from '../../assets/camera.svg';
 
 import './styles.css';
