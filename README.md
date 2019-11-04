@@ -8,13 +8,13 @@
   ☕ Code and coffee
 </h4>
 <p align="center">
-  
-  <a href="https://github.com/deloittech/aircnc/commits/master">
+
+  <a href="https://github.com/samuplus/aircnc-frontend/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/samuplus/aircnc-frontend.svg">
   </a>
 
-  <a href="https://github.com/samuplus/aircnc-backend/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/deloittech/aircnc.svg">
+  <a href="https://github.com/samuplus/aircnc-frontend/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/samuplus/aircnc-frontend.svg">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
@@ -50,11 +50,14 @@ AirCnC is a pet project developed to connect companies with developers. Companie
 
 <strong>Web app currently deployed on [Heroku](https://samuplus-aircnc-frontend.herokuapp.com/)</strong>
 
-You can find the backend source code [here](https://github.com/samuplus/aircnc-backend)
+- Backend source code [here](https://github.com/samuplus/aircnc-backend)
+- Mobile source code [here](https://github.com/samuplus/aircnc-mobile)
 
 ## 🔖 Reference and Layout
 
-This project was developed with online assistance from Diego Fernandes from Rocketseat.com.br. Concept and development plan was created by the Rocketseat team and the clone was developed during a week-long online tutorial video series called "Semana Omnistack".
+This project was developed with online assistance from Diego Fernandes from Rocketseat.com.br. The concept and development plan was created by the Rocketseat team and the clone was developed during a week-long online tutorial video series called "Semana Omnistack".
+
+This project was developed for study purposes only and it contains my own modifications to enhance its functionalities, such as image upload limits and validation, image storage in AWS S3, and spot deletion.
 
 The layout in `.sketch` format can be found [here](https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/semana-omnistack/aircnc.sketch).
 
