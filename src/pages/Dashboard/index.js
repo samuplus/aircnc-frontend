@@ -49,6 +49,12 @@ export default function Dashboard(){
         setRequests(requests.filter(request => request._id !== id));
     }
 
+    async function handleDelete(id) {
+        await api.delete(`spots/${id}`);
+
+        setSpots(spots.filter(spots => spots._id !== id));
+    }
+
     return (
         <>
             <ul className="notifications">
@@ -71,12 +77,13 @@ export default function Dashboard(){
                         <header style={{ backgroundImage: `url(${spot.url})` }} />
                         <strong>{spot.company}</strong>
                         <span>{spot.price ? `£${spot.price} per day` : 'FREE' }</span>
+                        <button onClick={() => handleDelete(spot._id)}>DELETE SPOT</button>
                     </li>
                 ))}
             </ul>
 
             <Link to="/new">
-                <button className="btn">Register a free desk</button>
+                <button className="btn">Register a new spot</button>
             </Link>
 
         </>

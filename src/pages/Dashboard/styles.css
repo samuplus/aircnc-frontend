@@ -30,6 +30,17 @@ ul.spot-list li span {
     color: #999;
 }
 
+ul.spot-list li button {
+    font-weight: bold;
+    font-size: 11px;
+    border: 0;
+    flex-direction: column; 
+    background: transparent;
+    color: #e57878;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
 ul.notifications {
     list-style: none;
     margin-bottom: 15px;
